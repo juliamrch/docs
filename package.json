@@ -38,7 +38,7 @@
     "@types/node": "^18.6.4",
     "@typescript-eslint/eslint-plugin": "^5.46.1",
     "@typescript-eslint/parser": "^5.46.1",
-    "astro": "0.0.0-cc-invalid-20240412135055",
+    "astro": "0.0.0-cc-invalid-20240412201943",
     "astro-auto-import": "^0.4.2",
     "astro-eslint-parser": "^0.16.0",
     "astro-og-canvas": "^0.4.1",
