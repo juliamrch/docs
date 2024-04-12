@@ -13,7 +13,7 @@ dependencies:
     version: 3.0.5
   '@astrojs/starlight':
     specifier: 0.21.1
-    version: 0.21.1(astro@0.0.0-cc-invalid-20240411201909)
+    version: 0.21.1(astro@0.0.0-cc-invalid-20240412122639)
   '@docsearch/js':
     specifier: ^3.5.2
     version: 3.5.2(@algolia/client-search@4.20.0)(search-insights@2.8.3)
@@ -83,17 +83,17 @@ devDependencies:
     specifier: ^5.46.1
     version: 5.46.1(eslint@8.29.0)(typescript@5.0.2)
   astro:
-    specifier: 0.0.0-cc-invalid-20240411201909
-    version: 0.0.0-cc-invalid-20240411201909(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2)
+    specifier: 0.0.0-cc-invalid-20240412122639
+    version: 0.0.0-cc-invalid-20240412122639(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2)
   astro-auto-import:
     specifier: ^0.4.2
-    version: 0.4.2(astro@0.0.0-cc-invalid-20240411201909)
+    version: 0.4.2(astro@0.0.0-cc-invalid-20240412122639)
   astro-eslint-parser:
     specifier: ^0.16.0
     version: 0.16.0
   astro-og-canvas:
     specifier: ^0.4.1
-    version: 0.4.1(astro@0.0.0-cc-invalid-20240411201909)
+    version: 0.4.1(astro@0.0.0-cc-invalid-20240412122639)
   bcp-47-normalize:
     specifier: ^2.1.0
     version: 2.1.0
@@ -488,7 +488,7 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@astrojs/mdx@2.1.1(astro@0.0.0-cc-invalid-20240411201909):
+  /@astrojs/mdx@2.1.1(astro@0.0.0-cc-invalid-20240412122639):
     resolution: {integrity: sha512-AgGFdE7HOGmoFooGvMSatkA9FiSKwyVW7ImHot/bXJ6uAbFfu6iG2ht18Cf1pT22Hda/6iSCGWusFvBv0/EnKQ==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -497,7 +497,7 @@ packages:
       '@astrojs/markdown-remark': 4.2.1
       '@mdx-js/mdx': 3.0.0
       acorn: 8.11.2
-      astro: 0.0.0-cc-invalid-20240411201909(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2)
+      astro: 0.0.0-cc-invalid-20240412122639(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2)
       es-module-lexer: 1.4.1
       estree-util-visit: 2.0.0
       github-slugger: 2.0.0
@@ -534,18 +534,18 @@ packages:
       zod: 3.22.4
     dev: false
 
-  /@astrojs/starlight@0.21.1(astro@0.0.0-cc-invalid-20240411201909):
+  /@astrojs/starlight@0.21.1(astro@0.0.0-cc-invalid-20240412122639):
     resolution: {integrity: sha512-nQ5EwKnB3eI8jxQrbgzZJJcyxeIiL3GzsAhl//1fE541MlD+PKy53v1PsYPi/RILdjt1Pg39rf1fkJC/rhXRgw==}
     peerDependencies:
       astro: ^4.2.7
     dependencies:
-      '@astrojs/mdx': 2.1.1(astro@0.0.0-cc-invalid-20240411201909)
+      '@astrojs/mdx': 2.1.1(astro@0.0.0-cc-invalid-20240412122639)
       '@astrojs/sitemap': 3.0.5
       '@pagefind/default-ui': 1.0.3
       '@types/hast': 3.0.3
       '@types/mdast': 4.0.3
-      astro: 0.0.0-cc-invalid-20240411201909(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2)
-      astro-expressive-code: 0.33.4(astro@0.0.0-cc-invalid-20240411201909)
+      astro: 0.0.0-cc-invalid-20240412122639(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2)
+      astro-expressive-code: 0.33.4(astro@0.0.0-cc-invalid-20240412122639)
       bcp-47: 2.1.0
       hast-util-from-html: 2.0.1
       hast-util-select: 6.0.2
@@ -1735,7 +1735,7 @@ packages:
   /@types/acorn@4.0.6:
     resolution: {integrity: sha512-veQTnWP+1D/xbxVrPC3zHnCZRjSrKfhbMUlEA43iMZLu7EsnTtkJklIuwrCPbOi8YkvDQAiW05VQQFvvz9oieQ==}
     dependencies:
-      '@types/estree': 1.0.1
+      '@types/estree': 1.0.5
     dev: false
 
   /@types/babel__core@7.20.5:
@@ -2236,7 +2236,7 @@ packages:
     hasBin: true
     dev: false
 
-  /astro-auto-import@0.4.2(astro@0.0.0-cc-invalid-20240411201909):
+  /astro-auto-import@0.4.2(astro@0.0.0-cc-invalid-20240412122639):
     resolution: {integrity: sha512-ZgWZQ58+EhbEym1+aoUnNyECOy0wsG5uRUs+rVp/7BzHtj1V76J2qkhjaTWLplgNb+8WrzhvTQNxytmXRCW+Ow==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
@@ -2244,7 +2244,7 @@ packages:
     dependencies:
       '@types/node': 18.6.4
       acorn: 8.11.2
-      astro: 0.0.0-cc-invalid-20240411201909(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2)
+      astro: 0.0.0-cc-invalid-20240412122639(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2)
     dev: true
 
   /astro-eslint-parser@0.16.0:
@@ -2278,30 +2278,30 @@ packages:
       - supports-color
     dev: true
 
-  /astro-expressive-code@0.33.4(astro@0.0.0-cc-invalid-20240411201909):
+  /astro-expressive-code@0.33.4(astro@0.0.0-cc-invalid-20240412122639):
     resolution: {integrity: sha512-PtXLjd89WBA1WsDYlt3V1LZs9Pa8FFoXilaGDSyfxtbYJ2OPHjWh2JJvCiXmfXmY3HkPJ2oW9Jjo6om5vUlVcg==}
     peerDependencies:
       astro: ^3.3.0 || ^4.0.0-beta
     dependencies:
-      astro: 0.0.0-cc-invalid-20240411201909(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2)
+      astro: 0.0.0-cc-invalid-20240412122639(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2)
       hast-util-to-html: 8.0.4
       remark-expressive-code: 0.33.4
     dev: false
 
-  /astro-og-canvas@0.4.1(astro@0.0.0-cc-invalid-20240411201909):
+  /astro-og-canvas@0.4.1(astro@0.0.0-cc-invalid-20240412122639):
     resolution: {integrity: sha512-/o5roIF8IuizF+9L9h6X9wHh17d3O2rQJJsOkNtlYBNZFSIkIG/R12TmGACG9ZdViRr6aLhV9BG+B+XLzC0dmw==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0
     dependencies:
-      astro: 0.0.0-cc-invalid-20240411201909(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2)
+      astro: 0.0.0-cc-invalid-20240412122639(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2)
       canvaskit-wasm: 0.37.0
       deterministic-object-hash: 2.0.2
       entities: 4.5.0
     dev: true
 
-  /astro@0.0.0-cc-invalid-20240411201909(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2):
-    resolution: {integrity: sha512-cmubKSHM68FKL3f2pJtLTkQ7AyaNhtdExSeTvD/6XTZcRchblfchvQ2bGSeo/HKRnlOaAd9IHXjn6umqW4ZxQA==}
+  /astro@0.0.0-cc-invalid-20240412122639(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2):
+    resolution: {integrity: sha512-jrajT719oVWOPKOOnCw97zcRsM5yRO60pzWvH4CQEs38+M0vjK4KCNHEO61YdEAXs2R4+z3l6VxBTpDsEMVF2w==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
     dependencies:
@@ -4416,7 +4416,7 @@ packages:
   /is-reference@3.0.1:
     resolution: {integrity: sha512-baJJdQLiYaJdvFbJqXrcGv3WU3QCzBlUcI5QhbesIm6/xPsvmO+2CDoi/GMOFBQEQm+PXkwOPrp9KK5ozZsp2w==}
     dependencies:
-      '@types/estree': 1.0.1
+      '@types/estree': 1.0.5
     dev: false
 
   /is-regex@1.1.4:
@@ -5040,7 +5040,7 @@ packages:
   /micromark-extension-mdx-expression@3.0.0:
     resolution: {integrity: sha512-sI0nwhUDz97xyzqJAbHQhp5TfaxEvZZZ2JDqUo+7NvyIYG6BZ5CPPqj2ogUoPJlmXHBnyZUzISg9+oUmU6tUjQ==}
     dependencies:
-      '@types/estree': 1.0.1
+      '@types/estree': 1.0.5
       devlop: 1.1.0
       micromark-factory-mdx-expression: 2.0.1
       micromark-factory-space: 2.0.0
@@ -5054,7 +5054,7 @@ packages:
     resolution: {integrity: sha512-uvhhss8OGuzR4/N17L1JwvmJIpPhAd8oByMawEKx6NVdBCbesjH4t+vjEp3ZXft9DwvlKSD07fCeI44/N0Vf2w==}
     dependencies:
       '@types/acorn': 4.0.6
-      '@types/estree': 1.0.1
+      '@types/estree': 1.0.5
       devlop: 1.1.0
       estree-util-is-identifier-name: 3.0.0
       micromark-factory-mdx-expression: 2.0.1
@@ -5074,7 +5074,7 @@ packages:
   /micromark-extension-mdxjs-esm@3.0.0:
     resolution: {integrity: sha512-DJFl4ZqkErRpq/dAPyeWp15tGrcrrJho1hKK5uBS70BCtfrIFg81sqcTVu3Ta+KD1Tk5vAtBNElWxtAa+m8K9A==}
     dependencies:
-      '@types/estree': 1.0.1
+      '@types/estree': 1.0.5
       devlop: 1.1.0
       micromark-core-commonmark: 2.0.0
       micromark-util-character: 2.0.1
@@ -5116,7 +5116,7 @@ packages:
   /micromark-factory-mdx-expression@2.0.1:
     resolution: {integrity: sha512-F0ccWIUHRLRrYp5TC9ZYXmZo+p2AM13ggbsW4T0b5CRKP8KHVRB8t4pwtBgTxtjRmwrK0Irwm7vs2JOZabHZfg==}
     dependencies:
-      '@types/estree': 1.0.1
+      '@types/estree': 1.0.5
       devlop: 1.1.0
       micromark-util-character: 2.0.1
       micromark-util-events-to-acorn: 2.0.2
@@ -5192,7 +5192,7 @@ packages:
     resolution: {integrity: sha512-Fk+xmBrOv9QZnEDguL9OI9/NQQp6Hz4FuQ4YmCb/5V7+9eAh1s6AYSvL20kHkD67YIg7EpE54TiSlcsf3vyZgA==}
     dependencies:
       '@types/acorn': 4.0.6
-      '@types/estree': 1.0.1
+      '@types/estree': 1.0.5
       '@types/unist': 3.0.0
       devlop: 1.1.0
       estree-util-visit: 2.0.0
