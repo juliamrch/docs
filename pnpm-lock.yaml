@@ -13,7 +13,7 @@ dependencies:
     version: 3.0.5
   '@astrojs/starlight':
     specifier: 0.21.1
-    version: 0.21.1(astro@0.0.0-cc-invalid-20240416204410)
+    version: 0.21.1(astro@0.0.0-cc-invalid-20240416211001)
   '@docsearch/js':
     specifier: ^3.5.2
     version: 3.5.2(@algolia/client-search@4.20.0)(search-insights@2.8.3)
@@ -83,17 +83,17 @@ devDependencies:
     specifier: ^5.46.1
     version: 5.46.1(eslint@8.29.0)(typescript@5.0.2)
   astro:
-    specifier: 0.0.0-cc-invalid-20240416204410
-    version: 0.0.0-cc-invalid-20240416204410(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2)
+    specifier: 0.0.0-cc-invalid-20240416211001
+    version: 0.0.0-cc-invalid-20240416211001(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2)
   astro-auto-import:
     specifier: ^0.4.2
-    version: 0.4.2(astro@0.0.0-cc-invalid-20240416204410)
+    version: 0.4.2(astro@0.0.0-cc-invalid-20240416211001)
   astro-eslint-parser:
     specifier: ^0.16.0
     version: 0.16.0
   astro-og-canvas:
     specifier: ^0.4.1
-    version: 0.4.1(astro@0.0.0-cc-invalid-20240416204410)
+    version: 0.4.1(astro@0.0.0-cc-invalid-20240416211001)
   bcp-47-normalize:
     specifier: ^2.1.0
     version: 2.1.0
@@ -488,7 +488,7 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@astrojs/mdx@2.1.1(astro@0.0.0-cc-invalid-20240416204410):
+  /@astrojs/mdx@2.1.1(astro@0.0.0-cc-invalid-20240416211001):
     resolution: {integrity: sha512-AgGFdE7HOGmoFooGvMSatkA9FiSKwyVW7ImHot/bXJ6uAbFfu6iG2ht18Cf1pT22Hda/6iSCGWusFvBv0/EnKQ==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -497,7 +497,7 @@ packages:
       '@astrojs/markdown-remark': 4.2.1
       '@mdx-js/mdx': 3.0.0
       acorn: 8.11.2
-      astro: 0.0.0-cc-invalid-20240416204410(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2)
+      astro: 0.0.0-cc-invalid-20240416211001(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2)
       es-module-lexer: 1.4.1
       estree-util-visit: 2.0.0
       github-slugger: 2.0.0
@@ -534,18 +534,18 @@ packages:
       zod: 3.22.4
     dev: false
 
-  /@astrojs/starlight@0.21.1(astro@0.0.0-cc-invalid-20240416204410):
+  /@astrojs/starlight@0.21.1(astro@0.0.0-cc-invalid-20240416211001):
     resolution: {integrity: sha512-nQ5EwKnB3eI8jxQrbgzZJJcyxeIiL3GzsAhl//1fE541MlD+PKy53v1PsYPi/RILdjt1Pg39rf1fkJC/rhXRgw==}
     peerDependencies:
       astro: ^4.2.7
     dependencies:
-      '@astrojs/mdx': 2.1.1(astro@0.0.0-cc-invalid-20240416204410)
+      '@astrojs/mdx': 2.1.1(astro@0.0.0-cc-invalid-20240416211001)
       '@astrojs/sitemap': 3.0.5
       '@pagefind/default-ui': 1.0.3
       '@types/hast': 3.0.3
       '@types/mdast': 4.0.3
-      astro: 0.0.0-cc-invalid-20240416204410(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2)
-      astro-expressive-code: 0.33.4(astro@0.0.0-cc-invalid-20240416204410)
+      astro: 0.0.0-cc-invalid-20240416211001(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2)
+      astro-expressive-code: 0.33.4(astro@0.0.0-cc-invalid-20240416211001)
       bcp-47: 2.1.0
       hast-util-from-html: 2.0.1
       hast-util-select: 6.0.2
@@ -2236,7 +2236,7 @@ packages:
     hasBin: true
     dev: false
 
-  /astro-auto-import@0.4.2(astro@0.0.0-cc-invalid-20240416204410):
+  /astro-auto-import@0.4.2(astro@0.0.0-cc-invalid-20240416211001):
     resolution: {integrity: sha512-ZgWZQ58+EhbEym1+aoUnNyECOy0wsG5uRUs+rVp/7BzHtj1V76J2qkhjaTWLplgNb+8WrzhvTQNxytmXRCW+Ow==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
@@ -2244,7 +2244,7 @@ packages:
     dependencies:
       '@types/node': 18.6.4
       acorn: 8.11.2
-      astro: 0.0.0-cc-invalid-20240416204410(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2)
+      astro: 0.0.0-cc-invalid-20240416211001(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2)
     dev: true
 
   /astro-eslint-parser@0.16.0:
@@ -2278,30 +2278,30 @@ packages:
       - supports-color
     dev: true
 
-  /astro-expressive-code@0.33.4(astro@0.0.0-cc-invalid-20240416204410):
+  /astro-expressive-code@0.33.4(astro@0.0.0-cc-invalid-20240416211001):
     resolution: {integrity: sha512-PtXLjd89WBA1WsDYlt3V1LZs9Pa8FFoXilaGDSyfxtbYJ2OPHjWh2JJvCiXmfXmY3HkPJ2oW9Jjo6om5vUlVcg==}
     peerDependencies:
       astro: ^3.3.0 || ^4.0.0-beta
     dependencies:
-      astro: 0.0.0-cc-invalid-20240416204410(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2)
+      astro: 0.0.0-cc-invalid-20240416211001(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2)
       hast-util-to-html: 8.0.4
       remark-expressive-code: 0.33.4
     dev: false
 
-  /astro-og-canvas@0.4.1(astro@0.0.0-cc-invalid-20240416204410):
+  /astro-og-canvas@0.4.1(astro@0.0.0-cc-invalid-20240416211001):
     resolution: {integrity: sha512-/o5roIF8IuizF+9L9h6X9wHh17d3O2rQJJsOkNtlYBNZFSIkIG/R12TmGACG9ZdViRr6aLhV9BG+B+XLzC0dmw==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0
     dependencies:
-      astro: 0.0.0-cc-invalid-20240416204410(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2)
+      astro: 0.0.0-cc-invalid-20240416211001(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2)
       canvaskit-wasm: 0.37.0
       deterministic-object-hash: 2.0.2
       entities: 4.5.0
     dev: true
 
-  /astro@0.0.0-cc-invalid-20240416204410(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2):
-    resolution: {integrity: sha512-VeXOVkYeseNAHxXpUgqReCRlhlQWHQJcts3hSh3Kix/4Jq05BkJ4e0ckVDKvlckNIY5pcWI8buZrbCIBppaTGA==}
+  /astro@0.0.0-cc-invalid-20240416211001(@types/node@18.6.4)(sass@1.54.3)(typescript@5.0.2):
+    resolution: {integrity: sha512-1Kh2rhxAioWC22yBf4RzwaHUFgV6jizP+yekE0BAlb8xx85vEgnfqoUwJtbAscxv290jS9MCarPzgMwqkv+IvQ==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
     dependencies:
